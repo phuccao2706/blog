@@ -1,0 +1,125 @@
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i&subset=vietnamese');
+
+
+a{
+	color: rgba(0,0,0,.5) !important;
+}
+
+.caption {
+	font-family: Montserrat;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.caption p{
+	margin-bottom: 0px;
+}
+
+body{
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%);
+}
+
+#navbarNavAltMarkup i{
+	margin-right: 400px;
+	font-size: 25px;
+}
+
+#linkGroup{
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#menu{
+	background-color: 
+}
+
+#menu img{
+	height: 30px;
+	margin-left: 400px;
+}
+
+.active{
+	font-weight: bold;
+}
+
+.post{
+	width: 80%;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.post img{
+	width: 95%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 2.5%;
+}
+
+.date{
+	font-family: Montserrat;
+	font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    padding-right: 50px;
+}
+
+#login-form input{
+	margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#login-form button{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.fileName{
+	padding-top: 7px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    outline: none;
+}
+
+.postButton{
+	color: #7c7c7d;
+	border-color: #7c7c7d !important;
+	outline: none;
+
+}
+
+.postButton:hover{
+	color: #fff;
+	background-color: #7c7c7d;
+}
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;   
+    cursor: inherit;
+    display: block;
+}
+
+#helloUser{
+	font-family: Montserrat;
+	font-size: 13px !important;
+}
